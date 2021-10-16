@@ -1,0 +1,25 @@
+.square-image-text {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25em 2em 1em 2em;
+}
+.square-image-text-heading {
+  margin: 1em 0;
+}
+.square-image-text-heading,
+.square-image-text {
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+}
+
+.square-image-text-body {
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 901px) {
+  .square-image-text-body {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

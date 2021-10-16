@@ -1,0 +1,7 @@
+.arrow-icon {
+  display: flex;
+  justify-content: center;
+}
+.arrow-icon-svg {
+  margin-bottom: 8em;
+}

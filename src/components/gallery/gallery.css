@@ -1,0 +1,15 @@
+/* Grid Gallery */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.gallery-image {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}

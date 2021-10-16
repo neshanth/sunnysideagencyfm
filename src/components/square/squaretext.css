@@ -1,0 +1,38 @@
+.square-body {
+  color: hsl(213, 9%, 39%);
+  text-align: center;
+  line-height: 1.5;
+}
+.square-heading {
+  text-align: center;
+}
+.square-text-container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.square-learn {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0.5em;
+}
+.square-body,
+.square-heading,
+.square-learn {
+  margin: 1em 0;
+}
+
+@media screen and (min-width: 901px) {
+  .square-body,
+  .square-heading,
+  .square-learn {
+    text-align: left;
+  }
+
+  .square-text-container {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,26 @@
+.menu {
+  background: #fff;
+  max-width: 95%;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  top: 120px;
+}
+.menu-link {
+  color: hsl(213, 9%, 39%);
+}
+
+.menu li {
+  margin: 1em 0;
+}
+
+@media screen and (min-width: 901px) {
+  .menu {
+    display: none;
+  }
+}

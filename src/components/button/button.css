@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 40px;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  display: inline-block;
+  font-family: "Fraunces", serif;
+}
+
+.btn-primary {
+  background-color: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+}
+
+.btn-secondary {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(212, 27%, 19%);
+}
